@@ -26,4 +26,4 @@ Using the above mentioned technologies and absolutley no code sources to start w
  https://briansoldani.github.io/04-homework-assignment-04/
 
 
-![](assets/quiz-time-neon-sign.jpg)
+![](assets/quiz-game.jpg)
