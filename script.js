@@ -377,4 +377,3 @@ function endGame() {
     // gameEl.setAttribute("style", "font-size:22px; text-align:center; padding:5px; margin-top:5px; background: blue; color:white");
     // gameEl.setAttribute("id", "begin");
     // gameEl.setAttribute("a", "href=");
-  };
