@@ -196,7 +196,7 @@ function setTime() {
 
 function goToScores() {
     questionCounterText.setAttribute("style", " color:white; padding: 5px; font-size:20px;");
-    questionCounterText.innerHTML = "<a href=scores.html>Click to see scores!</a>";
+    questionCounterText.innerHTML = "<a href=score.html>Click to see scores!</a>";
    
 };
 
