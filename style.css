@@ -1,7 +1,126 @@
-.correct {
-    background-color: green;
+:root {
+    font-size: 65%;
+  }
+  
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    }
+
+h1, h2, h3, h4 {
+  margin-bottom: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+ 
+
+h1 {
+    font-size: 5.4rem;
+    color: blue;
+      }        
+
+h1 > span {
+    font-size: 2.4rem;
+    font-weight: 500;
 }
 
-.incorrect {
-    background-color: red;
+#code-quiz {
+  margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    max-width: 90%;
+    padding: 10px;
+    background-color: #6495ED;
+    color: white
+  }
+
+h3 {
+    font-size: 2.8rem;
+    font-weight: 500;
+  }
+
+  /* Main Containiner */
+
+.container {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 80rem;
+  max-height: 80rem;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  padding: 2rem;
+}
+
+.container > * {
+  width: 100%;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Buttons */
+
+.button {
+  background-color: lightslategrey;
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  text-decoration: none;
+  padding: 20px;
+  border: 2px solid black;
+  text-align: center;
+  width: 20rem;
+  margin-bottom: 1rem;
+}
+
+
+/* Button activity */
+
+.button:hover, a:hover {
+  cursor: pointer;
+  color: red;
+  background-color: lightskyblue;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+.button[disabled]:hover {
+  cursor: not-allowed;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  padding: 1.5rem
 }

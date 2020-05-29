@@ -25,5 +25,8 @@ Using the above mentioned technologies and absolutley no code sources to start w
 #### URL of Deployed Application + Image
  https://briansoldani.github.io/04-homework-assignment-04/
 
+![](assets/code-quiz.jpg)
 
 ![](assets/quiz-game.jpg)
+
+![](assets/score-page.jpg)

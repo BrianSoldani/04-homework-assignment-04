@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Adding Custom Viewport Info -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Scores Page</title>
+
+    <!-- Linking CSS -->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="gamestyle.css">
+
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="home" class="flex-center flex-column">
+
+            <h1 id="finalScore">0</h1>
+
+                <form>
+
+                    <input type="text" name="username" id="username" placeholder="enter username">    
+
+                <br>
+
+                    <button class="button" type="submit" id="saveButton" onclick="saveHighScore(event)" disabled>Save</button>
+
+                </form>
+
+                <ol id="highScoresList"></ol>
+
+                <br>
+                <br>
+
+    
+
+                    <a class="button" href="index.html">Homepage</a>
+
+                    <a class="button" href="game.html">Let's Play</a>
+
+
+
+        </div>
+
+        
+
+
+    </div>
+
+
+            <!-- Javascript reference -->
+            <script src="scorescript.js"></script>
+</body>
+</html>

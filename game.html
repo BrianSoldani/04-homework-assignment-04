@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Adding Custom Viewport Info -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <title>Coding Quiz Game</title>
+
+    <!-- Linking CSS -->
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" type="text/css" href="gamestyle.css">
+
+
+
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="game" class="flex-center flex-column">
+
+
+                <!-- Stats, time, score displays here -->
+
+                <div id="hud">
+                    
+                    <div id="hud-item">
+
+                        <p class ="hud-prefix">Question</p>
+                            
+                            <h1 class="hud-main-text" id="questionCounter">
+                          
+                            </h1>        
+
+                    </div>
+
+                </div>
+
+                <div id="hud">    
+
+                    <div id="hud-item">
+
+                        <p class ="hud-prefix">Score</p>
+                            
+                            <h1 class="hud-main-text" id="score">0</h1>        
+                            
+                                <p class ="hud-prefix">Countdown</p>
+                                    
+                                    <h1 class="hud-main-text" id="countdown">0</h1>  
+
+
+                    </div>
+
+                </div>
+
+                <!-- Questions and answers go here -->
+
+            <h2 id="question">Answer the questions before time runs out!</h2>
+
+               <div class="choice-container">
+
+                    <p class="choice-prefix">A</p>
+
+                    <p class="choice-text" data-number="1">Choice 1</p>
+
+                </div>   
+
+                <div class="choice-container">
+
+                    <p class="choice-prefix">B</p>
+
+                    <p class="choice-text" data-number="2">Choice 2</p>
+
+                </div>   
+
+                <div class="choice-container">
+
+                    <p class="choice-prefix">C</p>
+
+                    <p class="choice-text" data-number="3">Choice 3</p>
+
+                </div>   
+
+                <div class="choice-container">
+
+                    <p class="choice-prefix">D</p>
+
+                    <p class="choice-text" data-number="4">Choice 4</p>
+
+                </div>   
+
+        </div>
+
+    </div>
+
+
+            <!-- Javascript reference -->
+            <script src="gamescript.js"></script>
+</body>
+</html>

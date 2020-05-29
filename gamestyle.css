@@ -1,0 +1,63 @@
+
+.choice-container {
+    display: flex;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: 1.8rem;
+    border: 0.1rem solid black;
+}
+
+/* Game play pointer feature */
+
+.choice-container:hover {
+    cursor: pointer;
+    box-shadow: 0 0.4rem 1.4rem 0 cornflowerblue;
+    color: blue;
+}
+
+.choice-prefix {
+    padding: 1.5rem 2.5rem;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.choice-text {
+    padding: 1.5rem;
+    width: 100%;
+}
+
+
+.correct {
+    background-color: green;
+}
+
+.incorrect {
+    background-color: red;
+}
+
+
+/* Hud displays */
+
+#hud {
+    display: flex;
+    height: 20%;
+    justify-content: space-between;
+}
+
+.hud-prefix {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 580;
+}
+
+.hud-main-text {
+    text-align: center;
+    font-size: 4rem;
+}
+
+#highScoresList {
+    color: blue;
+    font-size: 2rem;
+    font-weight: 580;
+    text-align: center;
+} 
